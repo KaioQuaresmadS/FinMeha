@@ -6,7 +6,7 @@
     Sem métodos pois o papel dela é ser um modelo da entidade e não tem que ter regras de negócio e manipulação.
 }
 
-|Receita e Despesas (Camada: Domain)|
+|Receita e despesass (Camada: Domain)|
 {
     São espicializações de transação, ou seja, herdam tudo dela.
 
@@ -14,14 +14,14 @@
     Receita[
         Propriedade extra: string Fonte
     ]
-    Despesa[
+    despesas[
         Propriedade extra: string CategoriaEnum Categoria
     ]
 }
 
 |CategoriaEnum(Camada: Domain/Enums)|
 {
-    Enumeração que define os tipos possíveis de categorias de despesa.Útil para filtrar, agrupar, e evitar texto solto no código.
+    Enumeração que define os tipos possíveis de categorias de despesas.Útil para filtrar, agrupar, e evitar texto solto no código.
     [Exemplo]
 
     public enum Categoria {
@@ -87,9 +87,9 @@ Tudo que representa as regras de negócio puras, sem saber se você vai usar API
 
 Transacao.cs: classe base com Descricao, Valor, Data
 
-Receita.cs e Despesa.cs: herdam de Transacao
+Receita.cs e despesas.cs: herdam de Transacao
 
-Categoria.cs: enum com categorias de despesa (Alimentação, Transporte...)
+Categoria.cs: enum com categorias de despesas (Alimentação, Transporte...)
 
 📁 Application/
 Onde ficam as regras de uso. Aqui você organiza os métodos que manipulam os objetos da camada Domain.
@@ -106,7 +106,7 @@ No nosso caso inicial, será o Program.cs com um menu que o usuário interage vi
 Depois, pode virar um Controller em API, se desejar.
 
 🚀 Ordem de implementação:
-Criar Domain/Transacao, Receita, Despesa
+Criar Domain/Transacao, Receita, despesas
 
 Criar FinancasService em Application/Services/
 

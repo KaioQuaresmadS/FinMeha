@@ -1,4 +1,4 @@
-namespace TransacaoModel
+namespace FinMeha.Domain
 {
     public class Transacao
     {

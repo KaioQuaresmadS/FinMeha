@@ -1,0 +1,15 @@
+C:\Users\kaio.souza\Desktop\Códigos\Exercicios\C#\FinMeha\obj\Debug\net9.0\FinMeha.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kaio.souza\Desktop\Códigos\Exercicios\C#\FinMeha\obj\Debug\net9.0\FinMeha.AssemblyInfoInputs.cache
+C:\Users\kaio.souza\Desktop\Códigos\Exercicios\C#\FinMeha\obj\Debug\net9.0\FinMeha.AssemblyInfo.cs
+C:\Users\kaio.souza\Desktop\Códigos\Exercicios\C#\FinMeha\obj\Debug\net9.0\FinMeha.csproj.CoreCompileInputs.cache
+C:\Users\kaio.souza\Desktop\Códigos\Exercicios\C#\FinMeha\obj\Debug\net9.0\FinMeha.sourcelink.json
+C:\Users\kaio.souza\Desktop\Códigos\Exercicios\C#\FinMeha\bin\Debug\net9.0\FinMeha.exe
+C:\Users\kaio.souza\Desktop\Códigos\Exercicios\C#\FinMeha\bin\Debug\net9.0\FinMeha.deps.json
+C:\Users\kaio.souza\Desktop\Códigos\Exercicios\C#\FinMeha\bin\Debug\net9.0\FinMeha.runtimeconfig.json
+C:\Users\kaio.souza\Desktop\Códigos\Exercicios\C#\FinMeha\bin\Debug\net9.0\FinMeha.dll
+C:\Users\kaio.souza\Desktop\Códigos\Exercicios\C#\FinMeha\bin\Debug\net9.0\FinMeha.pdb
+C:\Users\kaio.souza\Desktop\Códigos\Exercicios\C#\FinMeha\obj\Debug\net9.0\FinMeha.dll
+C:\Users\kaio.souza\Desktop\Códigos\Exercicios\C#\FinMeha\obj\Debug\net9.0\refint\FinMeha.dll
+C:\Users\kaio.souza\Desktop\Códigos\Exercicios\C#\FinMeha\obj\Debug\net9.0\FinMeha.pdb
+C:\Users\kaio.souza\Desktop\Códigos\Exercicios\C#\FinMeha\obj\Debug\net9.0\FinMeha.genruntimeconfig.cache
+C:\Users\kaio.souza\Desktop\Códigos\Exercicios\C#\FinMeha\obj\Debug\net9.0\ref\FinMeha.dll

@@ -1,6 +1,6 @@
 // using TransacaoModel.Domain;
 
-namespace ReceitaModel
+namespace FinMeha.Domain
 {
     public class Receita : Transacao
     {

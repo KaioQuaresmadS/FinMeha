@@ -1,4 +1,4 @@
-namespace Domain.Enums;
+namespace FinMeha.Enums;
 
 public enum CategoriaEnum
 {
