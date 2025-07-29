@@ -1,0 +1,232 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\kaio.souza\\Desktop\\Códigos\\kamehameha-back\\FinMeha\\FinMeha.Infrastructure\\FinMeha.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\kaio.souza\\Desktop\\Códigos\\kamehameha-back\\FinMeha\\FinMeha.Application\\FinMeha.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kaio.souza\\Desktop\\Códigos\\kamehameha-back\\FinMeha\\FinMeha.Application\\FinMeha.Application.csproj",
+        "projectName": "FinMeha.Application",
+        "projectPath": "C:\\Users\\kaio.souza\\Desktop\\Códigos\\kamehameha-back\\FinMeha\\FinMeha.Application\\FinMeha.Application.csproj",
+        "packagesPath": "C:\\Users\\kaio.souza\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kaio.souza\\Desktop\\Códigos\\kamehameha-back\\FinMeha\\FinMeha.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kaio.souza\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\kaio.souza\\Desktop\\Códigos\\kamehameha-back\\FinMeha\\FinMeha.Domain\\FinMeha.Domain.csproj": {
+                "projectPath": "C:\\Users\\kaio.souza\\Desktop\\Códigos\\kamehameha-back\\FinMeha\\FinMeha.Domain\\FinMeha.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\kaio.souza\\Desktop\\Códigos\\kamehameha-back\\FinMeha\\FinMeha.Domain\\FinMeha.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kaio.souza\\Desktop\\Códigos\\kamehameha-back\\FinMeha\\FinMeha.Domain\\FinMeha.Domain.csproj",
+        "projectName": "FinMeha.Domain",
+        "projectPath": "C:\\Users\\kaio.souza\\Desktop\\Códigos\\kamehameha-back\\FinMeha\\FinMeha.Domain\\FinMeha.Domain.csproj",
+        "packagesPath": "C:\\Users\\kaio.souza\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kaio.souza\\Desktop\\Códigos\\kamehameha-back\\FinMeha\\FinMeha.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kaio.souza\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\kaio.souza\\Desktop\\Códigos\\kamehameha-back\\FinMeha\\FinMeha.Infrastructure\\FinMeha.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kaio.souza\\Desktop\\Códigos\\kamehameha-back\\FinMeha\\FinMeha.Infrastructure\\FinMeha.Infrastructure.csproj",
+        "projectName": "FinMeha.Infrastructure",
+        "projectPath": "C:\\Users\\kaio.souza\\Desktop\\Códigos\\kamehameha-back\\FinMeha\\FinMeha.Infrastructure\\FinMeha.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\kaio.souza\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kaio.souza\\Desktop\\Códigos\\kamehameha-back\\FinMeha\\FinMeha.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kaio.souza\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\kaio.souza\\Desktop\\Códigos\\kamehameha-back\\FinMeha\\FinMeha.Application\\FinMeha.Application.csproj": {
+                "projectPath": "C:\\Users\\kaio.souza\\Desktop\\Códigos\\kamehameha-back\\FinMeha\\FinMeha.Application\\FinMeha.Application.csproj"
+              },
+              "C:\\Users\\kaio.souza\\Desktop\\Códigos\\kamehameha-back\\FinMeha\\FinMeha.Domain\\FinMeha.Domain.csproj": {
+                "projectPath": "C:\\Users\\kaio.souza\\Desktop\\Códigos\\kamehameha-back\\FinMeha\\FinMeha.Domain\\FinMeha.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
