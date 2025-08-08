@@ -29,5 +29,12 @@ namespace FinMeha.Domain.Entities
             Type = type;
             Date = date;
         }
+
+        public Transaction(string description, decimal amount, TransactionType type)
+        {
+            Description = description;
+            Amount = amount;
+            Type = type;
+        }
     }
 }

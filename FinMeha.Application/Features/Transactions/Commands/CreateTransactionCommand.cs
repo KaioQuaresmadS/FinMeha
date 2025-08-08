@@ -8,6 +8,6 @@ using FinMeha.Domain.Entities.Enums;
 
 namespace FinMeha.Application.Features.Transactions.Commands
 {
-    public record CreateTransactionCommand (decimal Amount, string Description, TransactionType Type, DateTime Date) : IRequest<Guid>; //Irequest<T> indica que espera um int como retorno
+    public record CreateTransactionCommand (decimal Amount, string Description, TransactionType Type) : IRequest<Guid>; //Irequest<T> indica que espera um int como retorno
     
 }

@@ -1,0 +1,15 @@
+# Visual Studio
+.vs/
+
+# Arquivos de compilação (Build)
+[Bb]in/
+[Oo]bj/
+
+# Arquivos específicos do usuário
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Arquivos do Rider
+.idea/

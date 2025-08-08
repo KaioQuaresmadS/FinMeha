@@ -3,28 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\kaio.souza\\Desktop\\C\u00F3digos\\kamehameha-back\\FinMeha\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{18D4358D-F273-4EF4-A5A7-DECCC90DB671}|FinMeha.Application\\FinMeha.Application.csproj|c:\\users\\kaio.souza\\desktop\\c\u00F3digos\\kamehameha-back\\finmeha\\finmeha.application\\features\\transactions\\commands\\createtransactioncommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18D4358D-F273-4EF4-A5A7-DECCC90DB671}|FinMeha.Application\\FinMeha.Application.csproj|solutionrelative:finmeha.application\\features\\transactions\\commands\\createtransactioncommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18D4358D-F273-4EF4-A5A7-DECCC90DB671}|FinMeha.Application\\FinMeha.Application.csproj|c:\\users\\kaio.souza\\desktop\\c\u00F3digos\\kamehameha-back\\finmeha\\finmeha.application\\features\\transactions\\commands\\createtransactioncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18D4358D-F273-4EF4-A5A7-DECCC90DB671}|FinMeha.Application\\FinMeha.Application.csproj|solutionrelative:finmeha.application\\features\\transactions\\commands\\createtransactioncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E0670D5-E1D9-4004-AC17-488F1E54D4B5}|FinMeha.Domain\\FinMeha.Domain.csproj|c:\\users\\kaio.souza\\desktop\\c\u00F3digos\\kamehameha-back\\finmeha\\finmeha.domain\\entities\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E0670D5-E1D9-4004-AC17-488F1E54D4B5}|FinMeha.Domain\\FinMeha.Domain.csproj|solutionrelative:finmeha.domain\\entities\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E0670D5-E1D9-4004-AC17-488F1E54D4B5}|FinMeha.Domain\\FinMeha.Domain.csproj|c:\\users\\kaio.souza\\desktop\\c\u00F3digos\\kamehameha-back\\finmeha\\finmeha.domain\\interfaces\\itransactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E0670D5-E1D9-4004-AC17-488F1E54D4B5}|FinMeha.Domain\\FinMeha.Domain.csproj|solutionrelative:finmeha.domain\\interfaces\\itransactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E0670D5-E1D9-4004-AC17-488F1E54D4B5}|FinMeha.Domain\\FinMeha.Domain.csproj|c:\\users\\kaio.souza\\desktop\\c\u00F3digos\\kamehameha-back\\finmeha\\finmeha.domain\\entities\\enums\\transactiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E0670D5-E1D9-4004-AC17-488F1E54D4B5}|FinMeha.Domain\\FinMeha.Domain.csproj|solutionrelative:finmeha.domain\\entities\\enums\\transactiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EE96C8BB-3568-4483-9D09-960D9B513573}|FinMeha.API\\FinMeha.API.csproj|c:\\users\\kaio.souza\\desktop\\c\u00F3digos\\kamehameha-back\\finmeha\\finmeha.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE96C8BB-3568-4483-9D09-960D9B513573}|FinMeha.API\\FinMeha.API.csproj|solutionrelative:finmeha.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8134BB94-0631-46DA-BF9F-16A9C7D8B931}|FinMeha.Infrastructure\\FinMeha.Infrastructure.csproj|c:\\users\\kaio.souza\\desktop\\c\u00F3digos\\kamehameha-back\\finmeha\\finmeha.infrastructure\\persistence\\configurations\\transactionconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8134BB94-0631-46DA-BF9F-16A9C7D8B931}|FinMeha.Infrastructure\\FinMeha.Infrastructure.csproj|solutionrelative:finmeha.infrastructure\\persistence\\configurations\\transactionconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,78 +30,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ITransactionRepository.cs",
-              "DocumentMoniker": "C:\\Users\\kaio.souza\\Desktop\\C\u00F3digos\\kamehameha-back\\FinMeha\\FinMeha.Domain\\Interfaces\\ITransactionRepository.cs",
-              "RelativeDocumentMoniker": "FinMeha.Domain\\Interfaces\\ITransactionRepository.cs",
-              "ToolTip": "C:\\Users\\kaio.souza\\Desktop\\C\u00F3digos\\kamehameha-back\\FinMeha\\FinMeha.Domain\\Interfaces\\ITransactionRepository.cs",
-              "RelativeToolTip": "FinMeha.Domain\\Interfaces\\ITransactionRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-29T12:08:15.312Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CreateTransactionCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\kaio.souza\\Desktop\\C\u00F3digos\\kamehameha-back\\FinMeha\\FinMeha.Application\\Features\\Transactions\\Commands\\CreateTransactionCommandHandler.cs",
-              "RelativeDocumentMoniker": "FinMeha.Application\\Features\\Transactions\\Commands\\CreateTransactionCommandHandler.cs",
-              "ToolTip": "C:\\Users\\kaio.souza\\Desktop\\C\u00F3digos\\kamehameha-back\\FinMeha\\FinMeha.Application\\Features\\Transactions\\Commands\\CreateTransactionCommandHandler.cs",
-              "RelativeToolTip": "FinMeha.Application\\Features\\Transactions\\Commands\\CreateTransactionCommandHandler.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAcwCkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-29T11:58:23.873Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CreateTransactionCommand.cs",
-              "DocumentMoniker": "C:\\Users\\kaio.souza\\Desktop\\C\u00F3digos\\kamehameha-back\\FinMeha\\FinMeha.Application\\Features\\Transactions\\Commands\\CreateTransactionCommand.cs",
-              "RelativeDocumentMoniker": "FinMeha.Application\\Features\\Transactions\\Commands\\CreateTransactionCommand.cs",
-              "ToolTip": "C:\\Users\\kaio.souza\\Desktop\\C\u00F3digos\\kamehameha-back\\FinMeha\\FinMeha.Application\\Features\\Transactions\\Commands\\CreateTransactionCommand.cs",
-              "RelativeToolTip": "FinMeha.Application\\Features\\Transactions\\Commands\\CreateTransactionCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-29T11:45:10.207Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TransactionType.cs",
-              "DocumentMoniker": "C:\\Users\\kaio.souza\\Desktop\\C\u00F3digos\\kamehameha-back\\FinMeha\\FinMeha.Domain\\Entities\\Enums\\TransactionType.cs",
-              "RelativeDocumentMoniker": "FinMeha.Domain\\Entities\\Enums\\TransactionType.cs",
-              "ToolTip": "C:\\Users\\kaio.souza\\Desktop\\C\u00F3digos\\kamehameha-back\\FinMeha\\FinMeha.Domain\\Entities\\Enums\\TransactionType.cs",
-              "RelativeToolTip": "FinMeha.Domain\\Entities\\Enums\\TransactionType.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-29T11:29:41.29Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Transaction.cs",
-              "DocumentMoniker": "C:\\Users\\kaio.souza\\Desktop\\C\u00F3digos\\kamehameha-back\\FinMeha\\FinMeha.Domain\\Entities\\Transaction.cs",
-              "RelativeDocumentMoniker": "FinMeha.Domain\\Entities\\Transaction.cs",
-              "ToolTip": "C:\\Users\\kaio.souza\\Desktop\\C\u00F3digos\\kamehameha-back\\FinMeha\\FinMeha.Domain\\Entities\\Transaction.cs",
-              "RelativeToolTip": "FinMeha.Domain\\Entities\\Transaction.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAzwA8AAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-29T11:27:09.169Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\kaio.souza\\Desktop\\C\u00F3digos\\kamehameha-back\\FinMeha\\FinMeha.API\\Program.cs",
               "RelativeDocumentMoniker": "FinMeha.API\\Program.cs",
               "ToolTip": "C:\\Users\\kaio.souza\\Desktop\\C\u00F3digos\\kamehameha-back\\FinMeha\\FinMeha.API\\Program.cs",
               "RelativeToolTip": "FinMeha.API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T14:26:34.231Z"
+              "WhenOpened": "2025-08-04T19:03:22.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TransactionConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\kaio.souza\\Desktop\\C\u00F3digos\\kamehameha-back\\FinMeha\\FinMeha.Infrastructure\\Persistence\\Configurations\\TransactionConfiguration.cs",
+              "RelativeDocumentMoniker": "FinMeha.Infrastructure\\Persistence\\Configurations\\TransactionConfiguration.cs",
+              "ToolTip": "C:\\Users\\kaio.souza\\Desktop\\C\u00F3digos\\kamehameha-back\\FinMeha\\FinMeha.Infrastructure\\Persistence\\Configurations\\TransactionConfiguration.cs",
+              "RelativeToolTip": "FinMeha.Infrastructure\\Persistence\\Configurations\\TransactionConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T19:16:22.405Z"
             }
           ]
         }

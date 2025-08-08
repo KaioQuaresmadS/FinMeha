@@ -50,9 +50,21 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "MediatR.Extensions.Microsoft.DependencyInjection": {
+            "FluentValidation": {
               "target": "Package",
-              "version": "[11.1.0, )"
+              "version": "[12.0.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.1, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.7, )"
             }
           },
           "imports": [

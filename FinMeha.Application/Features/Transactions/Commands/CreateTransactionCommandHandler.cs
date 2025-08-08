@@ -28,11 +28,10 @@ namespace FinMeha.Application.Features.Transactions.Commands
                 throw new ArgumentException("Amount must be grater than zero.");
             }
 
-            var transaction = new Transaction(
+            var transaction = new Domain.Entities.Transaction(
                 request.Description,
                 request.Amount,
-                request.Type,
-                request.Date
+                request.Type
 
             );
 
