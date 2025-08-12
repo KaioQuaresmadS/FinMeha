@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FinMeha.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1d0c5e3751d72e20ebd52e9f3a32958c3c0c863c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5dae6c2e55221b1d9751e89953567ee3f2bfb46b")]
 [assembly: System.Reflection.AssemblyProductAttribute("FinMeha.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FinMeha.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
