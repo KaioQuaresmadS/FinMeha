@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "BTCGVI84S2U=",
+  "dgSpecHash": "2NBpwkr9EGk=",
   "success": true,
   "projectFilePath": "C:\\Users\\kaio.souza\\Desktop\\Códigos\\kamehameha-back\\FinMeha\\FinMeha.Application\\FinMeha.Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\kaio.souza\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\kaio.souza\\.nuget\\packages\\fluentvalidation\\12.0.0\\fluentvalidation.12.0.0.nupkg.sha512",
     "C:\\Users\\kaio.souza\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.1\\fluentvalidation.aspnetcore.11.3.1.nupkg.sha512",
     "C:\\Users\\kaio.souza\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\12.0.0\\fluentvalidation.dependencyinjectionextensions.12.0.0.nupkg.sha512",
@@ -18,6 +19,7 @@
     "C:\\Users\\kaio.souza\\.nuget\\packages\\microsoft.identitymodel.protocols\\7.1.2\\microsoft.identitymodel.protocols.7.1.2.nupkg.sha512",
     "C:\\Users\\kaio.souza\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\7.1.2\\microsoft.identitymodel.protocols.openidconnect.7.1.2.nupkg.sha512",
     "C:\\Users\\kaio.souza\\.nuget\\packages\\microsoft.identitymodel.tokens\\7.1.2\\microsoft.identitymodel.tokens.7.1.2.nupkg.sha512",
+    "C:\\Users\\kaio.souza\\.nuget\\packages\\portable.bouncycastle\\1.9.0\\portable.bouncycastle.1.9.0.nupkg.sha512",
     "C:\\Users\\kaio.souza\\.nuget\\packages\\system.identitymodel.tokens.jwt\\7.1.2\\system.identitymodel.tokens.jwt.7.1.2.nupkg.sha512"
   ],
   "logs": []

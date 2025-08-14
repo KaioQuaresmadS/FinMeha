@@ -1,5 +1,5 @@
 using MediatR;
-using FinMeha.Application;
+using FinMeha.Application.Common.Behaviors;
 using Microsoft.Extensions.DependencyInjection;
 using FluentValidation;
 using static System.Net.Mime.MediaTypeNames;
@@ -7,6 +7,7 @@ using FluentValidation.AspNetCore;
 using FinMeha.Infrastructure.Persistence;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using System.Reflection;
 
 
 
@@ -22,15 +23,15 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-builder.Services.AddMediatR(cfg => {
-    // A linha abaixo procura por todos os Handlers e Commands
-    // no projeto onde a classe 'AssemblyReference' está.
-    cfg.RegisterServicesFromAssembly(typeof(FinMeha.Application.AssemblyReference).Assembly);
-});
+// 1. Registrar MediatR
+builder.Services.AddMediatR(cfg => cfg.RegisterServices.FromAssembly(Assembly.Load("FinMeha.Application")));
 
-builder.Services.AddValidatorsFromAssembly(typeof(FinMeha.Application.AssemblyReference).Assembly);
-builder.Services.AddFluentValidationClientsideAdapters();
-builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme);
+// 2. Registrar Validadores do FluentValidation
+builder.Services.AddValidatorsFromAssembly(Assembly.Load("FinMeha.Application"));
+
+// 3. Registrar o Pipeline Behavior de Validação
+builder.Services.AddTransient(typeof(IPipelineBehavior<,>), typeof(ValidationBehavior<,>));
+builder.Services.AddControllers();
 
 var app = builder.Build();
 

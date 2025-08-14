@@ -9,49 +9,38 @@ namespace FinMeha.Domain.Entities
     public class User
     {
         // Chave Primária para identificar o usuário de forma única no banco.
-        public int Id { get; set; }
+        public Guid Id { get; private set; }
 
-        public string Name { get; set; }
+        public string FristName { get; private set; }
 
         public string LastName { get; set; }
 
         public string Email { get; set; }
 
-        public string Password { get; set; } // Atenção à nota de segurança abaixo!
+        public string PasswordHash { get; private set; } // Atenção à nota de segurança abaixo!
 
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
 
-        public User(int id, string name, string lastName, string email, string password, DateTime createdAt)
+        private User(Guid id, string fristName, string lastName, string email, string passwordHash)
         {
 
-            if(id == 0)
-            {
-                throw new InvalidOperationException("Esse campo não pode ser menor ou igual a zero");
-            }
-
-            this.Id = id;
-
-            if (string.IsNullOrWhiteSpace(name) && string.IsNullOrWhiteSpace(lastName))
-            {
-                throw new InvalidOperationException("Este campo deve ser preenchido");
-            }
-
-            this.Name = name;
-            this.LastName = lastName;
-
-            if (string.IsNullOrEmpty(password))
-            {
-                throw new InvalidOperationException("Campo deve ser preenchido!");
-            }
-            this.Password = password;
-            this.CreatedAt = createdAt;
 
             Id = id;
-            Name = name;
+            FristName = fristName;
             LastName = lastName;
             Email = email;
-            Password = password;
-            CreatedAt = createdAt;
+            PasswordHash = passwordHash;
+        }
+
+        public static User Create(string fristName, string lastName, string email, string passwordHash)
+        {
+            //Aqui poderia existir validações de domínio, como garantir que o email não é nulo
+            return new User(Guid.NewGuid(), fristName, lastName, email, passwordHash);
+
+            //if(email.All(char.IsLetterOrDigit) || email.Contains("@") || email.Contains("."))
+            //{
+            //    throw new ArgumentException("Email inválido.");
+            //}
         }
     }
 }
