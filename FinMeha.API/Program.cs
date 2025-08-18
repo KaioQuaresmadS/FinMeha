@@ -8,6 +8,7 @@ using FinMeha.Infrastructure.Persistence;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using System.Reflection;
+using FinMeha.Infrastructure;
 
 
 
@@ -19,12 +20,10 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddDbContext<ApplicationDbContext>(options =>
-
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+builder.Services.AddInfrastructureServices(builder.Configuration);
 
 // 1. Registrar MediatR
-builder.Services.AddMediatR(cfg => cfg.RegisterServices.FromAssembly(Assembly.Load("FinMeha.Application")));
+builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(Assembly.Load("FinMeha.Application")));
 
 // 2. Registrar Validadores do FluentValidation
 builder.Services.AddValidatorsFromAssembly(Assembly.Load("FinMeha.Application"));

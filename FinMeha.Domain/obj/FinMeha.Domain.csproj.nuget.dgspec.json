@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kaio.souza\\Desktop\\Códigos\\kamehameha-back\\FinMeha\\FinMeha.Domain\\FinMeha.Domain.csproj": {}
+    "C:\\Users\\kaio.souza\\Downloads\\FinMeha\\FinMeha.Domain\\FinMeha.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kaio.souza\\Desktop\\Códigos\\kamehameha-back\\FinMeha\\FinMeha.Domain\\FinMeha.Domain.csproj": {
+    "C:\\Users\\kaio.souza\\Downloads\\FinMeha\\FinMeha.Domain\\FinMeha.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kaio.souza\\Desktop\\Códigos\\kamehameha-back\\FinMeha\\FinMeha.Domain\\FinMeha.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\kaio.souza\\Downloads\\FinMeha\\FinMeha.Domain\\FinMeha.Domain.csproj",
         "projectName": "FinMeha.Domain",
-        "projectPath": "C:\\Users\\kaio.souza\\Desktop\\Códigos\\kamehameha-back\\FinMeha\\FinMeha.Domain\\FinMeha.Domain.csproj",
+        "projectPath": "C:\\Users\\kaio.souza\\Downloads\\FinMeha\\FinMeha.Domain\\FinMeha.Domain.csproj",
         "packagesPath": "C:\\Users\\kaio.souza\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kaio.souza\\Desktop\\Códigos\\kamehameha-back\\FinMeha\\FinMeha.Domain\\obj\\",
+        "outputPath": "C:\\Users\\kaio.souza\\Downloads\\FinMeha\\FinMeha.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

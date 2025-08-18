@@ -10,6 +10,7 @@ namespace FinMeha.Domain.Interfaces
 {
     public interface IUserRepository
     {
+        Task AddAsync(User user, CancellationToken cancellationToken);
         Task<User?> GetUserByEmailAsync(string email, CancellationToken cancellationToken = default);
     }
 }

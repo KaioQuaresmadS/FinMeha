@@ -13,7 +13,7 @@ namespace FinMeha.Application.Features.Users.Commands.Register;
 public class RegisterUserCommandHander : IRequestHandler<RegisterUserCommand, Guid>
 {
     private readonly IUserRepository _userRepository;
-    public RegisterUserCommandHandler(IUserRepository userRepository)
+    public RegisterUserCommandHander(IUserRepository userRepository)
     {
         _userRepository = userRepository;
     }

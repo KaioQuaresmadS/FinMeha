@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2NBpwkr9EGk=",
+  "dgSpecHash": "Xrnvy2Uq2cM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\kaio.souza\\Desktop\\Códigos\\kamehameha-back\\FinMeha\\FinMeha.Application\\FinMeha.Application.csproj",
+  "projectFilePath": "C:\\Users\\kaio.souza\\Downloads\\FinMeha\\FinMeha.Application\\FinMeha.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kaio.souza\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\kaio.souza\\.nuget\\packages\\fluentvalidation\\12.0.0\\fluentvalidation.12.0.0.nupkg.sha512",

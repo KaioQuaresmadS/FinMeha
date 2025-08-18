@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kaio.souza\\Desktop\\Códigos\\kamehameha-back\\FinMeha\\FinMeha.API\\FinMeha.API.csproj": {}
+    "C:\\Users\\kaio.souza\\Downloads\\FinMeha\\FinMeha.API\\FinMeha.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kaio.souza\\Desktop\\Códigos\\kamehameha-back\\FinMeha\\FinMeha.API\\FinMeha.API.csproj": {
+    "C:\\Users\\kaio.souza\\Downloads\\FinMeha\\FinMeha.API\\FinMeha.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kaio.souza\\Desktop\\Códigos\\kamehameha-back\\FinMeha\\FinMeha.API\\FinMeha.API.csproj",
+        "projectUniqueName": "C:\\Users\\kaio.souza\\Downloads\\FinMeha\\FinMeha.API\\FinMeha.API.csproj",
         "projectName": "FinMeha.API",
-        "projectPath": "C:\\Users\\kaio.souza\\Desktop\\Códigos\\kamehameha-back\\FinMeha\\FinMeha.API\\FinMeha.API.csproj",
+        "projectPath": "C:\\Users\\kaio.souza\\Downloads\\FinMeha\\FinMeha.API\\FinMeha.API.csproj",
         "packagesPath": "C:\\Users\\kaio.souza\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kaio.souza\\Desktop\\Códigos\\kamehameha-back\\FinMeha\\FinMeha.API\\obj\\",
+        "outputPath": "C:\\Users\\kaio.souza\\Downloads\\FinMeha\\FinMeha.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,11 +32,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\kaio.souza\\Desktop\\Códigos\\kamehameha-back\\FinMeha\\FinMeha.Application\\FinMeha.Application.csproj": {
-                "projectPath": "C:\\Users\\kaio.souza\\Desktop\\Códigos\\kamehameha-back\\FinMeha\\FinMeha.Application\\FinMeha.Application.csproj"
+              "C:\\Users\\kaio.souza\\Downloads\\FinMeha\\FinMeha.Application\\FinMeha.Application.csproj": {
+                "projectPath": "C:\\Users\\kaio.souza\\Downloads\\FinMeha\\FinMeha.Application\\FinMeha.Application.csproj"
               },
-              "C:\\Users\\kaio.souza\\Desktop\\Códigos\\kamehameha-back\\FinMeha\\FinMeha.Infrastructure\\FinMeha.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\kaio.souza\\Desktop\\Códigos\\kamehameha-back\\FinMeha\\FinMeha.Infrastructure\\FinMeha.Infrastructure.csproj"
+              "C:\\Users\\kaio.souza\\Downloads\\FinMeha\\FinMeha.Infrastructure\\FinMeha.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\kaio.souza\\Downloads\\FinMeha\\FinMeha.Infrastructure\\FinMeha.Infrastructure.csproj"
               }
             }
           }
@@ -61,25 +61,23 @@
               "target": "Package",
               "version": "[12.0.0, )"
             },
-            "FluentValidation.AspNetCore": {
-              "target": "Package",
-              "version": "[11.3.1, )"
-            },
             "FluentValidation.DependencyInjectionExtensions": {
               "target": "Package",
               "version": "[12.0.0, )"
             },
             "MediatR": {
               "target": "Package",
-              "version": "[11.1.0, )"
-            },
-            "MediatR.Extensions.Microsoft.DependencyInjection": {
-              "target": "Package",
-              "version": "[11.1.0, )"
+              "version": "[12.0.1, )"
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[8.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.8, )"
             },
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
@@ -113,14 +111,14 @@
         }
       }
     },
-    "C:\\Users\\kaio.souza\\Desktop\\Códigos\\kamehameha-back\\FinMeha\\FinMeha.Application\\FinMeha.Application.csproj": {
+    "C:\\Users\\kaio.souza\\Downloads\\FinMeha\\FinMeha.Application\\FinMeha.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kaio.souza\\Desktop\\Códigos\\kamehameha-back\\FinMeha\\FinMeha.Application\\FinMeha.Application.csproj",
+        "projectUniqueName": "C:\\Users\\kaio.souza\\Downloads\\FinMeha\\FinMeha.Application\\FinMeha.Application.csproj",
         "projectName": "FinMeha.Application",
-        "projectPath": "C:\\Users\\kaio.souza\\Desktop\\Códigos\\kamehameha-back\\FinMeha\\FinMeha.Application\\FinMeha.Application.csproj",
+        "projectPath": "C:\\Users\\kaio.souza\\Downloads\\FinMeha\\FinMeha.Application\\FinMeha.Application.csproj",
         "packagesPath": "C:\\Users\\kaio.souza\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kaio.souza\\Desktop\\Códigos\\kamehameha-back\\FinMeha\\FinMeha.Application\\obj\\",
+        "outputPath": "C:\\Users\\kaio.souza\\Downloads\\FinMeha\\FinMeha.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -141,8 +139,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\kaio.souza\\Desktop\\Códigos\\kamehameha-back\\FinMeha\\FinMeha.Domain\\FinMeha.Domain.csproj": {
-                "projectPath": "C:\\Users\\kaio.souza\\Desktop\\Códigos\\kamehameha-back\\FinMeha\\FinMeha.Domain\\FinMeha.Domain.csproj"
+              "C:\\Users\\kaio.souza\\Downloads\\FinMeha\\FinMeha.Domain\\FinMeha.Domain.csproj": {
+                "projectPath": "C:\\Users\\kaio.souza\\Downloads\\FinMeha\\FinMeha.Domain\\FinMeha.Domain.csproj"
               }
             }
           }
@@ -216,14 +214,14 @@
         }
       }
     },
-    "C:\\Users\\kaio.souza\\Desktop\\Códigos\\kamehameha-back\\FinMeha\\FinMeha.Domain\\FinMeha.Domain.csproj": {
+    "C:\\Users\\kaio.souza\\Downloads\\FinMeha\\FinMeha.Domain\\FinMeha.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kaio.souza\\Desktop\\Códigos\\kamehameha-back\\FinMeha\\FinMeha.Domain\\FinMeha.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\kaio.souza\\Downloads\\FinMeha\\FinMeha.Domain\\FinMeha.Domain.csproj",
         "projectName": "FinMeha.Domain",
-        "projectPath": "C:\\Users\\kaio.souza\\Desktop\\Códigos\\kamehameha-back\\FinMeha\\FinMeha.Domain\\FinMeha.Domain.csproj",
+        "projectPath": "C:\\Users\\kaio.souza\\Downloads\\FinMeha\\FinMeha.Domain\\FinMeha.Domain.csproj",
         "packagesPath": "C:\\Users\\kaio.souza\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kaio.souza\\Desktop\\Códigos\\kamehameha-back\\FinMeha\\FinMeha.Domain\\obj\\",
+        "outputPath": "C:\\Users\\kaio.souza\\Downloads\\FinMeha\\FinMeha.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -299,14 +297,14 @@
         }
       }
     },
-    "C:\\Users\\kaio.souza\\Desktop\\Códigos\\kamehameha-back\\FinMeha\\FinMeha.Infrastructure\\FinMeha.Infrastructure.csproj": {
+    "C:\\Users\\kaio.souza\\Downloads\\FinMeha\\FinMeha.Infrastructure\\FinMeha.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kaio.souza\\Desktop\\Códigos\\kamehameha-back\\FinMeha\\FinMeha.Infrastructure\\FinMeha.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\kaio.souza\\Downloads\\FinMeha\\FinMeha.Infrastructure\\FinMeha.Infrastructure.csproj",
         "projectName": "FinMeha.Infrastructure",
-        "projectPath": "C:\\Users\\kaio.souza\\Desktop\\Códigos\\kamehameha-back\\FinMeha\\FinMeha.Infrastructure\\FinMeha.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\kaio.souza\\Downloads\\FinMeha\\FinMeha.Infrastructure\\FinMeha.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\kaio.souza\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kaio.souza\\Desktop\\Códigos\\kamehameha-back\\FinMeha\\FinMeha.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\kaio.souza\\Downloads\\FinMeha\\FinMeha.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -327,11 +325,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\kaio.souza\\Desktop\\Códigos\\kamehameha-back\\FinMeha\\FinMeha.Application\\FinMeha.Application.csproj": {
-                "projectPath": "C:\\Users\\kaio.souza\\Desktop\\Códigos\\kamehameha-back\\FinMeha\\FinMeha.Application\\FinMeha.Application.csproj"
+              "C:\\Users\\kaio.souza\\Downloads\\FinMeha\\FinMeha.Application\\FinMeha.Application.csproj": {
+                "projectPath": "C:\\Users\\kaio.souza\\Downloads\\FinMeha\\FinMeha.Application\\FinMeha.Application.csproj"
               },
-              "C:\\Users\\kaio.souza\\Desktop\\Códigos\\kamehameha-back\\FinMeha\\FinMeha.Domain\\FinMeha.Domain.csproj": {
-                "projectPath": "C:\\Users\\kaio.souza\\Desktop\\Códigos\\kamehameha-back\\FinMeha\\FinMeha.Domain\\FinMeha.Domain.csproj"
+              "C:\\Users\\kaio.souza\\Downloads\\FinMeha\\FinMeha.Domain\\FinMeha.Domain.csproj": {
+                "projectPath": "C:\\Users\\kaio.souza\\Downloads\\FinMeha\\FinMeha.Domain\\FinMeha.Domain.csproj"
               }
             }
           }
@@ -352,25 +350,9 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "FluentValidation": {
+            "BCrypt.Net-Next": {
               "target": "Package",
-              "version": "[12.0.0, )"
-            },
-            "FluentValidation.AspNetCore": {
-              "target": "Package",
-              "version": "[11.3.1, )"
-            },
-            "FluentValidation.DependencyInjectionExtensions": {
-              "target": "Package",
-              "version": "[12.0.0, )"
-            },
-            "MediatR": {
-              "target": "Package",
-              "version": "[11.1.0, )"
-            },
-            "MediatR.Extensions.Microsoft.DependencyInjection": {
-              "target": "Package",
-              "version": "[11.1.0, )"
+              "version": "[4.0.3, )"
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",

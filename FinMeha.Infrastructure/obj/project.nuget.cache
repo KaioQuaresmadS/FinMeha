@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iza4b0iQMhQ=",
+  "dgSpecHash": "xfl+Kjcbalw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\kaio.souza\\Desktop\\Códigos\\kamehameha-back\\FinMeha\\FinMeha.Infrastructure\\FinMeha.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\kaio.souza\\Downloads\\FinMeha\\FinMeha.Infrastructure\\FinMeha.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kaio.souza\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\kaio.souza\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
