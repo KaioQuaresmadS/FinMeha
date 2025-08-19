@@ -11,7 +11,7 @@ namespace FinMeha.Domain.Entities
         // Chave Primária para identificar o usuário de forma única no banco.
         public Guid Id { get; private set; }
 
-        public string FristName { get; private set; }
+        public string FirstName { get; private set; }
 
         public string LastName { get; set; }
 
@@ -26,7 +26,7 @@ namespace FinMeha.Domain.Entities
 
 
             Id = id;
-            FristName = fristName;
+            FirstName = fristName;
             LastName = lastName;
             Email = email;
             PasswordHash = passwordHash;

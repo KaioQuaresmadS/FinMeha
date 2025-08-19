@@ -1,4 +1,6 @@
 using MediatR;
+using System.Text;
+using Microsoft.IdentityModel.Tokens;
 using FinMeha.Application.Common.Behaviors;
 using Microsoft.Extensions.DependencyInjection;
 using FluentValidation;
@@ -13,6 +15,29 @@ using FinMeha.Infrastructure;
 
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddAuthentication(options =>
+{
+    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+})
+    .AddJwtBearer(options =>
+    {
+        options.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuer = true, //ValidateIssuer: Verifica se o token foi emitido pelo emissor esperado.
+            ValidateAudience = true, //ValidateAudience: Verifica se o token se destina a esta aplicação
+            ValidateLifetime = true, //ValidateLifetime: Verifica se o token não expirou
+            ValidateIssuerSigningKey = true, // ValidateIssuerSigningKey: Verifica se a chave de assinatura é válida, garantindo que o token não foi adulterado.
+
+            ValidIssuer = builder.Configuration["Jwt:Issuer"],
+            ValidAudience = builder.Configuration["Jwt:Audience"],
+            IssuerSigningKey = new
+                    SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
+        };
+    });
+
+builder.Services.AddAuthentication();
 
 // Add services to the container.
 
@@ -42,6 +67,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseAuthentication();
 
 app.UseAuthorization();
 

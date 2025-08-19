@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace FinMeha.Infrastructure.Persistence.Repositories;
 
-public class UserRepository :IUserRepository
+public class UserRepository : IUserRepository
 {
     private readonly ApplicationDbContext _context;
 
