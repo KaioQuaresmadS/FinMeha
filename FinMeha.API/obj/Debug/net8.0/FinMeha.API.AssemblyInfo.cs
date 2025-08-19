@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FinMeha.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8e8d3148e15da2fa72887ac2999b97fe10f9f926")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3c5a5d4f35e3e0d274cbc72b0578180aeebc9e64")]
 [assembly: System.Reflection.AssemblyProductAttribute("FinMeha.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FinMeha.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
