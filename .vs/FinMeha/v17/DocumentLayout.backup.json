@@ -7,36 +7,44 @@
       "RelativeMoniker": "D:0:0:{8134BB94-0631-46DA-BF9F-16A9C7D8B931}|FinMeha.Infrastructure\\FinMeha.Infrastructure.csproj|solutionrelative:finmeha.infrastructure\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18D4358D-F273-4EF4-A5A7-DECCC90DB671}|FinMeha.Application\\FinMeha.Application.csproj|c:\\users\\kaio.souza\\downloads\\finmeha\\finmeha.application\\features\\users\\commands\\register\\registerusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18D4358D-F273-4EF4-A5A7-DECCC90DB671}|FinMeha.Application\\FinMeha.Application.csproj|solutionrelative:finmeha.application\\features\\users\\commands\\register\\registerusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{18D4358D-F273-4EF4-A5A7-DECCC90DB671}|FinMeha.Application\\FinMeha.Application.csproj|c:\\users\\kaio.souza\\downloads\\finmeha\\finmeha.application\\features\\users\\commands\\login\\logincommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18D4358D-F273-4EF4-A5A7-DECCC90DB671}|FinMeha.Application\\FinMeha.Application.csproj|solutionrelative:finmeha.application\\features\\users\\commands\\login\\logincommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E0670D5-E1D9-4004-AC17-488F1E54D4B5}|FinMeha.Domain\\FinMeha.Domain.csproj|c:\\users\\kaio.souza\\downloads\\finmeha\\finmeha.domain\\interfaces\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E0670D5-E1D9-4004-AC17-488F1E54D4B5}|FinMeha.Domain\\FinMeha.Domain.csproj|solutionrelative:finmeha.domain\\interfaces\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7E0670D5-E1D9-4004-AC17-488F1E54D4B5}|FinMeha.Domain\\FinMeha.Domain.csproj|c:\\users\\kaio.souza\\downloads\\finmeha\\finmeha.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E0670D5-E1D9-4004-AC17-488F1E54D4B5}|FinMeha.Domain\\FinMeha.Domain.csproj|solutionrelative:finmeha.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7E0670D5-E1D9-4004-AC17-488F1E54D4B5}|FinMeha.Domain\\FinMeha.Domain.csproj|c:\\users\\kaio.souza\\downloads\\finmeha\\finmeha.domain\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E0670D5-E1D9-4004-AC17-488F1E54D4B5}|FinMeha.Domain\\FinMeha.Domain.csproj|solutionrelative:finmeha.domain\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8134BB94-0631-46DA-BF9F-16A9C7D8B931}|FinMeha.Infrastructure\\FinMeha.Infrastructure.csproj|c:\\users\\kaio.souza\\downloads\\finmeha\\finmeha.infrastructure\\persistence\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8134BB94-0631-46DA-BF9F-16A9C7D8B931}|FinMeha.Infrastructure\\FinMeha.Infrastructure.csproj|solutionrelative:finmeha.infrastructure\\persistence\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7E0670D5-E1D9-4004-AC17-488F1E54D4B5}|FinMeha.Domain\\FinMeha.Domain.csproj|c:\\users\\kaio.souza\\downloads\\finmeha\\finmeha.domain\\interfaces\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E0670D5-E1D9-4004-AC17-488F1E54D4B5}|FinMeha.Domain\\FinMeha.Domain.csproj|solutionrelative:finmeha.domain\\interfaces\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18D4358D-F273-4EF4-A5A7-DECCC90DB671}|FinMeha.Application\\FinMeha.Application.csproj|c:\\users\\kaio.souza\\downloads\\finmeha\\finmeha.application\\features\\users\\commands\\login\\logincommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18D4358D-F273-4EF4-A5A7-DECCC90DB671}|FinMeha.Application\\FinMeha.Application.csproj|solutionrelative:finmeha.application\\features\\users\\commands\\login\\logincommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18D4358D-F273-4EF4-A5A7-DECCC90DB671}|FinMeha.Application\\FinMeha.Application.csproj|c:\\users\\kaio.souza\\downloads\\finmeha\\finmeha.application\\features\\users\\commands\\login\\logincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18D4358D-F273-4EF4-A5A7-DECCC90DB671}|FinMeha.Application\\FinMeha.Application.csproj|solutionrelative:finmeha.application\\features\\users\\commands\\login\\logincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{18D4358D-F273-4EF4-A5A7-DECCC90DB671}|FinMeha.Application\\FinMeha.Application.csproj|c:\\users\\kaio.souza\\downloads\\finmeha\\finmeha.application\\features\\users\\commands\\register\\registerusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18D4358D-F273-4EF4-A5A7-DECCC90DB671}|FinMeha.Application\\FinMeha.Application.csproj|solutionrelative:finmeha.application\\features\\users\\commands\\register\\registerusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{18D4358D-F273-4EF4-A5A7-DECCC90DB671}|FinMeha.Application\\FinMeha.Application.csproj|c:\\users\\kaio.souza\\downloads\\finmeha\\finmeha.application\\features\\users\\commands\\register\\registerusercommandhander.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{18D4358D-F273-4EF4-A5A7-DECCC90DB671}|FinMeha.Application\\FinMeha.Application.csproj|solutionrelative:finmeha.application\\features\\users\\commands\\register\\registerusercommandhander.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{18D4358D-F273-4EF4-A5A7-DECCC90DB671}|FinMeha.Application\\FinMeha.Application.csproj|c:\\users\\kaio.souza\\downloads\\finmeha\\finmeha.application\\features\\users\\commands\\login\\logincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18D4358D-F273-4EF4-A5A7-DECCC90DB671}|FinMeha.Application\\FinMeha.Application.csproj|solutionrelative:finmeha.application\\features\\users\\commands\\login\\logincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EE96C8BB-3568-4483-9D09-960D9B513573}|FinMeha.API\\FinMeha.API.csproj|c:\\users\\kaio.souza\\downloads\\finmeha\\finmeha.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE96C8BB-3568-4483-9D09-960D9B513573}|FinMeha.API\\FinMeha.API.csproj|solutionrelative:finmeha.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE96C8BB-3568-4483-9D09-960D9B513573}|FinMeha.API\\FinMeha.API.csproj|c:\\users\\kaio.souza\\downloads\\finmeha\\finmeha.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE96C8BB-3568-4483-9D09-960D9B513573}|FinMeha.API\\FinMeha.API.csproj|solutionrelative:finmeha.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8134BB94-0631-46DA-BF9F-16A9C7D8B931}|FinMeha.Infrastructure\\FinMeha.Infrastructure.csproj|c:\\users\\kaio.souza\\downloads\\finmeha\\finmeha.infrastructure\\persistence\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8134BB94-0631-46DA-BF9F-16A9C7D8B931}|FinMeha.Infrastructure\\FinMeha.Infrastructure.csproj|solutionrelative:finmeha.infrastructure\\persistence\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EE96C8BB-3568-4483-9D09-960D9B513573}|FinMeha.API\\FinMeha.API.csproj|c:\\users\\kaio.souza\\downloads\\finmeha\\finmeha.api\\finmeha.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -49,10 +57,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{EE96C8BB-3568-4483-9D09-960D9B513573}|FinMeha.API\\FinMeha.API.csproj|c:\\users\\kaio.souza\\downloads\\finmeha\\finmeha.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{EE96C8BB-3568-4483-9D09-960D9B513573}|FinMeha.API\\FinMeha.API.csproj|solutionrelative:finmeha.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE96C8BB-3568-4483-9D09-960D9B513573}|FinMeha.API\\FinMeha.API.csproj|c:\\users\\kaio.souza\\downloads\\finmeha\\finmeha.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE96C8BB-3568-4483-9D09-960D9B513573}|FinMeha.API\\FinMeha.API.csproj|solutionrelative:finmeha.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7E0670D5-E1D9-4004-AC17-488F1E54D4B5}|FinMeha.Domain\\FinMeha.Domain.csproj|c:\\users\\kaio.souza\\downloads\\finmeha\\finmeha.domain\\finmeha.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -70,17 +74,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "RegisterUserCommand.cs",
               "DocumentMoniker": "C:\\Users\\kaio.souza\\Downloads\\FinMeha\\FinMeha.Application\\Features\\Users\\Commands\\Register\\RegisterUserCommand.cs",
               "RelativeDocumentMoniker": "FinMeha.Application\\Features\\Users\\Commands\\Register\\RegisterUserCommand.cs",
               "ToolTip": "C:\\Users\\kaio.souza\\Downloads\\FinMeha\\FinMeha.Application\\Features\\Users\\Commands\\Register\\RegisterUserCommand.cs",
               "RelativeToolTip": "FinMeha.Application\\Features\\Users\\Commands\\Register\\RegisterUserCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-14T13:41:29.329Z",
               "IsPinned": true,
@@ -88,20 +92,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TokenService.cs",
-              "DocumentMoniker": "C:\\Users\\kaio.souza\\Downloads\\FinMeha\\FinMeha.Infrastructure\\TokenService.cs",
-              "RelativeDocumentMoniker": "FinMeha.Infrastructure\\TokenService.cs",
-              "ToolTip": "C:\\Users\\kaio.souza\\Downloads\\FinMeha\\FinMeha.Infrastructure\\TokenService.cs",
-              "RelativeToolTip": "FinMeha.Infrastructure\\TokenService.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAADYAAAABAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "LoginCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\kaio.souza\\Downloads\\FinMeha\\FinMeha.Application\\Features\\Users\\Commands\\Login\\LoginCommandHandler.cs",
+              "RelativeDocumentMoniker": "FinMeha.Application\\Features\\Users\\Commands\\Login\\LoginCommandHandler.cs",
+              "ToolTip": "C:\\Users\\kaio.souza\\Downloads\\FinMeha\\FinMeha.Application\\Features\\Users\\Commands\\Login\\LoginCommandHandler.cs",
+              "RelativeToolTip": "FinMeha.Application\\Features\\Users\\Commands\\Login\\LoginCommandHandler.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAgwC8AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T19:16:01.2Z",
+              "WhenOpened": "2025-08-21T17:10:15.473Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "ITokenService.cs",
               "DocumentMoniker": "C:\\Users\\kaio.souza\\Downloads\\FinMeha\\FinMeha.Domain\\Interfaces\\ITokenService.cs",
               "RelativeDocumentMoniker": "FinMeha.Domain\\Interfaces\\ITokenService.cs",
@@ -114,28 +118,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\kaio.souza\\Downloads\\FinMeha\\FinMeha.Infrastructure\\Persistence\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "FinMeha.Infrastructure\\Persistence\\Repositories\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\kaio.souza\\Downloads\\FinMeha\\FinMeha.Infrastructure\\Persistence\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "FinMeha.Infrastructure\\Persistence\\Repositories\\UserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\kaio.souza\\Downloads\\FinMeha\\FinMeha.Infrastructure\\TokenService.cs",
+              "RelativeDocumentMoniker": "FinMeha.Infrastructure\\TokenService.cs",
+              "ToolTip": "C:\\Users\\kaio.souza\\Downloads\\FinMeha\\FinMeha.Infrastructure\\TokenService.cs",
+              "RelativeToolTip": "FinMeha.Infrastructure\\TokenService.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADIAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T12:56:21.781Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "LoginCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\kaio.souza\\Downloads\\FinMeha\\FinMeha.Application\\Features\\Users\\Commands\\Login\\LoginCommandHandler.cs",
-              "RelativeDocumentMoniker": "FinMeha.Application\\Features\\Users\\Commands\\Login\\LoginCommandHandler.cs",
-              "ToolTip": "C:\\Users\\kaio.souza\\Downloads\\FinMeha\\FinMeha.Application\\Features\\Users\\Commands\\Login\\LoginCommandHandler.cs",
-              "RelativeToolTip": "FinMeha.Application\\Features\\Users\\Commands\\Login\\LoginCommandHandler.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAA5wC8AAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T17:10:15.473Z",
+              "WhenOpened": "2025-08-21T19:16:01.2Z",
               "EditorCaption": ""
             },
             {
@@ -146,9 +137,35 @@
               "RelativeDocumentMoniker": "FinMeha.API\\Program.cs",
               "ToolTip": "C:\\Users\\kaio.souza\\Downloads\\FinMeha\\FinMeha.API\\Program.cs",
               "RelativeToolTip": "FinMeha.API\\Program.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-18T13:06:59.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\kaio.souza\\Downloads\\FinMeha\\FinMeha.API\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "FinMeha.API\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\kaio.souza\\Downloads\\FinMeha\\FinMeha.API\\Controllers\\UserController.cs",
+              "RelativeToolTip": "FinMeha.API\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAABAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T17:04:42.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\kaio.souza\\Downloads\\FinMeha\\FinMeha.Infrastructure\\Persistence\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "FinMeha.Infrastructure\\Persistence\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\kaio.souza\\Downloads\\FinMeha\\FinMeha.Infrastructure\\Persistence\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "FinMeha.Infrastructure\\Persistence\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T12:56:21.781Z",
               "EditorCaption": ""
             },
             {
@@ -173,7 +190,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "FinMeha.API.csproj",
               "DocumentMoniker": "C:\\Users\\kaio.souza\\Downloads\\FinMeha\\FinMeha.API\\FinMeha.API.csproj",
               "RelativeDocumentMoniker": "FinMeha.API\\FinMeha.API.csproj",
@@ -186,7 +203,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "FinMeha.Domain.csproj",
               "DocumentMoniker": "C:\\Users\\kaio.souza\\Downloads\\FinMeha\\FinMeha.Domain\\FinMeha.Domain.csproj",
               "RelativeDocumentMoniker": "FinMeha.Domain\\FinMeha.Domain.csproj",
@@ -199,7 +216,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\kaio.souza\\Downloads\\FinMeha\\FinMeha.API\\appsettings.json",
               "RelativeDocumentMoniker": "FinMeha.API\\appsettings.json",
@@ -212,7 +229,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "Dockerfile",
               "DocumentMoniker": "C:\\Users\\kaio.souza\\Downloads\\FinMeha\\FinMeha.API\\Dockerfile",
               "RelativeDocumentMoniker": "FinMeha.API\\Dockerfile",
@@ -225,20 +242,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\kaio.souza\\Downloads\\FinMeha\\FinMeha.API\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "FinMeha.API\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\kaio.souza\\Downloads\\FinMeha\\FinMeha.API\\Controllers\\UserController.cs",
-              "RelativeToolTip": "FinMeha.API\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAIBJwBAAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T17:04:42.104Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\kaio.souza\\Downloads\\FinMeha\\FinMeha.Infrastructure\\Persistence\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "FinMeha.Infrastructure\\Persistence\\ApplicationDbContext.cs",
@@ -253,11 +257,24 @@
         },
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\kaio.souza\\Downloads\\FinMeha\\FinMeha.Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "FinMeha.Domain\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\kaio.souza\\Downloads\\FinMeha\\FinMeha.Domain\\Entities\\User.cs",
+              "RelativeToolTip": "FinMeha.Domain\\Entities\\User.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAIA2wBwAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T11:07:29.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "RegisterUserCommandHander.cs",
               "DocumentMoniker": "C:\\Users\\kaio.souza\\Downloads\\FinMeha\\FinMeha.Application\\Features\\Users\\Commands\\Register\\RegisterUserCommandHander.cs",
               "RelativeDocumentMoniker": "FinMeha.Application\\Features\\Users\\Commands\\Register\\RegisterUserCommandHander.cs",
@@ -283,7 +300,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "LoginCommand.cs",
               "DocumentMoniker": "C:\\Users\\kaio.souza\\Downloads\\FinMeha\\FinMeha.Application\\Features\\Users\\Commands\\Login\\LoginCommand.cs",
               "RelativeDocumentMoniker": "FinMeha.Application\\Features\\Users\\Commands\\Login\\LoginCommand.cs",
