@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\kaio.souza\\Downloads\\FinMeha\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7E0670D5-E1D9-4004-AC17-488F1E54D4B5}|FinMeha.Domain\\FinMeha.Domain.csproj|c:\\users\\kaio.souza\\downloads\\finmeha\\finmeha.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E0670D5-E1D9-4004-AC17-488F1E54D4B5}|FinMeha.Domain\\FinMeha.Domain.csproj|solutionrelative:finmeha.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE96C8BB-3568-4483-9D09-960D9B513573}|FinMeha.API\\FinMeha.API.csproj|c:\\users\\kaio.souza\\downloads\\finmeha\\finmeha.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE96C8BB-3568-4483-9D09-960D9B513573}|FinMeha.API\\FinMeha.API.csproj|solutionrelative:finmeha.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,6 +39,32 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\kaio.souza\\Downloads\\FinMeha\\FinMeha.Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "FinMeha.Domain\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\kaio.souza\\Downloads\\FinMeha\\FinMeha.Domain\\Entities\\User.cs",
+              "RelativeToolTip": "FinMeha.Domain\\Entities\\User.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAiwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T17:18:58.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\kaio.souza\\Downloads\\FinMeha\\FinMeha.API\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "FinMeha.API\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\kaio.souza\\Downloads\\FinMeha\\FinMeha.API\\Controllers\\UserController.cs",
+              "RelativeToolTip": "FinMeha.API\\Controllers\\UserController.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAAAEsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T11:30:12.736Z",
+              "EditorCaption": ""
             }
           ]
         }

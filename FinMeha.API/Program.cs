@@ -1,16 +1,18 @@
-using MediatR;
-using System.Text;
-using Microsoft.IdentityModel.Tokens;
 using FinMeha.Application.Common.Behaviors;
-using Microsoft.Extensions.DependencyInjection;
-using FluentValidation;
-using static System.Net.Mime.MediaTypeNames;
-using FluentValidation.AspNetCore;
-using FinMeha.Infrastructure.Persistence;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
-using System.Reflection;
+using FinMeha.Domain.Interfaces;
 using FinMeha.Infrastructure;
+using FinMeha.Infrastructure.Persistence;
+using FinMeha.Infrastructure.Services;
+using FluentValidation;
+using FluentValidation.AspNetCore;
+using MediatR;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.IdentityModel.Tokens;
+using System.Reflection;
+using System.Text;
+using static System.Net.Mime.MediaTypeNames;
 
 
 
@@ -38,6 +40,8 @@ builder.Services.AddAuthentication(options =>
     });
 
 builder.Services.AddAuthentication();
+builder.Services.AddScoped<ITokenService, TokenService>();
+
 
 // Add services to the container.
 
@@ -46,6 +50,8 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddInfrastructureServices(builder.Configuration);
+builder.Services.AddScoped<ITokenService, TokenService>();
+
 
 // 1. Registrar MediatR
 builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(Assembly.Load("FinMeha.Application")));

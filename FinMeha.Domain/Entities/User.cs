@@ -21,21 +21,21 @@ namespace FinMeha.Domain.Entities
 
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
 
-        private User(Guid id, string fristName, string lastName, string email, string passwordHash)
+        public User(Guid id, string firstName, string lastName, string email, string passwordHash)
         {
 
 
             Id = id;
-            FirstName = fristName;
+            FirstName = firstName;
             LastName = lastName;
             Email = email;
             PasswordHash = passwordHash;
         }
 
-        public static User Create(string fristName, string lastName, string email, string passwordHash)
+        public static User Create(string firstName, string lastName, string email, string passwordHash)
         {
             //Aqui poderia existir validações de domínio, como garantir que o email não é nulo
-            return new User(Guid.NewGuid(), fristName, lastName, email, passwordHash);
+            return new User(Guid.NewGuid(), firstName, lastName, email, passwordHash);
 
             //if(email.All(char.IsLetterOrDigit) || email.Contains("@") || email.Contains("."))
             //{
