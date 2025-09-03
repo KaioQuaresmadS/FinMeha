@@ -14,6 +14,7 @@ namespace FinMeha.API.Controllers;
 
 //O controller apenas injeta a interface IMediator, que será usada para enviar comandos e consultas.
 [ApiController]
+[Route("api/[controller]")] //Adiciona rota base
 public class UsersController : ControllerBase
 {
     private readonly IMediator _mediator;
@@ -30,38 +31,17 @@ public class UsersController : ControllerBase
     {
         try
         {
-            var userId = await _mediator.Send(command);
-            return Ok(new { UserId = userId });
+            var result = await _mediator.Send(command);
+            return Ok(new { 
+                
+                UserId = result,
+                Message = "Usuário registrado com sucesso"
+            });
         }
-        catch (FluentValidation.ValidationException ex)
+        catch (Exception ex)
         {
-            return BadRequest(ex.Errors);
+            return BadRequest(new {message = ex.Message});
         }
-        catch(Exception ex)
-        {
-            return BadRequest(new { message = ex.Message });
-        }
-    }
-
-    [HttpGet("profile")]
-    [Authorize] //Esse endpoint agora está protegido
-    public IActionResult GetUserProfile()
-    {
-        // lógica para retornar o perfil do usuário autenticado
-        var userEmail = User.FindFirstValue(ClaimTypes.Email);
-        return Ok(new { Email = userEmail });
-    }
-    [HttpGet("me")]
-    [Authorize]
-    public IActionResult GetMyEmail()
-    {
-        var userEmail = User.FindFirstValue(ClaimTypes.Email);
-        if (string.IsNullOrEmpty(userEmail)) 
-        {
-            return NotFound("E-mail não encontrado!");
-        }
-
-        return Ok(new {Email = userEmail});
     }
 
     [HttpPost("login")]
@@ -70,11 +50,68 @@ public class UsersController : ControllerBase
         try
         {
             var token = await _mediator.Send(command);
-            return Ok(new { Token = token });
+            return Ok(new {
+                Token = token,
+                Message = "Login realizado com sucesso!",
+                ExpiresIn = "1 hora" // Ajuste conforme sua configuração JWT
+            });
         }
         catch (Exception ex)
         {
             return Unauthorized(new { message = ex.Message });
         }
+    }
+
+    [HttpGet("profile")]
+    [Authorize] //Esse endpoint agora está protegido
+    public async Task<IActionResult> GetUserProfile()
+    {
+        try
+        {
+            // lógica para retornar o perfil do usuário autenticado
+            var userEmail = User.FindFirstValue(ClaimTypes.Email);
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+
+            //Buscar informações completas do usuário no banco
+            var user = await _context.Users
+                            .FirstOrDefaultAsync(u => u.Email == userEmail);
+
+            if (user == null)
+                return NotFound(new { message = "Usuário não encontrado" });
+
+
+            return Ok(new
+            {
+                user.Id,
+                user.Email,
+                user.FirstName,
+                user.CreatedAt
+            
+            });
+        }
+
+        catch (Exception ex)
+        {
+            return StatusCode(500, new { message = "Erro ao buscar perfil" });
+        }
+
+    }
+    [HttpGet("me")]
+    [Authorize]
+    public IActionResult GetMyEmail()
+    {
+        var userEmail = User.FindFirstValue(ClaimTypes.Email);
+        var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+
+        if (string.IsNullOrEmpty(userEmail)) 
+        {
+            return NotFound(new { message = "E-mail não encontrado!" });
+        }
+
+        return Ok(new {
+            Email = userEmail,
+            UserId = userId,
+            Message = "Informações do usuário autenticado"
+        });
     }
 }

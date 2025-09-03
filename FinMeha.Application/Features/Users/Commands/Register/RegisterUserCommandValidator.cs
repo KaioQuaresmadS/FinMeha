@@ -7,9 +7,9 @@ using FluentValidation;
 
 namespace FinMeha.Application.Features.Users.Commands.Register;
 
-public class RegisterUserCommandValidatior : AbstractValidator<RegisterUserCommand>
+public class RegisterUserCommandValidator : AbstractValidator<RegisterUserCommand>
 {
-    public RegisterUserCommandValidatior()
+    public RegisterUserCommandValidator()
     {
         RuleFor(x => x.FirstName)
                 .NotEmpty()

@@ -1,4 +1,4 @@
-using FinMeha.Application.Common.Behaviors;
+﻿using FinMeha.Application.Common.Behaviors;
 using FinMeha.Domain.Interfaces;
 using FinMeha.Infrastructure;
 using FinMeha.Infrastructure.Persistence;
@@ -12,72 +12,73 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
 using System.Reflection;
 using System.Text;
-using static System.Net.Mime.MediaTypeNames;
-
-
 
 var builder = WebApplication.CreateBuilder(args);
 
+// Configuração de CORS ✅ (ANTES de Build())
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowFrontend",  policy =>
+        {
+            policy.WithOrigins(
+                "http://localhost:4200",
+                "http://localhost:50107",    // Desenvolvimento
+                "https://seu-frontend.azurewebsites.net"  // Produção
+                )
+            .AllowAnyHeader()
+            .AllowAnyMethod();
+        });
+});
+
+// Autenticação JWT
 builder.Services.AddAuthentication(options =>
 {
     options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
     options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
 })
-    .AddJwtBearer(options =>
+.AddJwtBearer(options =>
+{
+    options.TokenValidationParameters = new TokenValidationParameters
     {
-        options.TokenValidationParameters = new TokenValidationParameters
-        {
-            ValidateIssuer = true, //ValidateIssuer: Verifica se o token foi emitido pelo emissor esperado.
-            ValidateAudience = true, //ValidateAudience: Verifica se o token se destina a esta aplica��o
-            ValidateLifetime = true, //ValidateLifetime: Verifica se o token n�o expirou
-            ValidateIssuerSigningKey = true, // ValidateIssuerSigningKey: Verifica se a chave de assinatura � v�lida, garantindo que o token n�o foi adulterado.
+        ValidateIssuer = true,
+        ValidateAudience = true,
+        ValidateLifetime = true,
+        ValidateIssuerSigningKey = true,
+        ValidIssuer = builder.Configuration["Jwt:Issuer"],
+        ValidAudience = builder.Configuration["Jwt:Audience"],
+        IssuerSigningKey = new SymmetricSecurityKey(
+            Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
+    };
+});
 
-            ValidIssuer = builder.Configuration["Jwt:Issuer"],
-            ValidAudience = builder.Configuration["Jwt:Audience"],
-            IssuerSigningKey = new
-                    SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
-        };
-    });
-
-builder.Services.AddAuthentication();
-builder.Services.AddScoped<ITokenService, TokenService>();
-
-
-// Add services to the container.
-
-builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+// Serviços da aplicação
+builder.Services.AddControllers(); // ✅ Apenas UMA vez
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddInfrastructureServices(builder.Configuration);
 builder.Services.AddScoped<ITokenService, TokenService>();
 
-
-// 1. Registrar MediatR
-builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(Assembly.Load("FinMeha.Application")));
-
-// 2. Registrar Validadores do FluentValidation
+// MediatR e Validação
+builder.Services.AddMediatR(cfg =>
+    cfg.RegisterServicesFromAssembly(Assembly.Load("FinMeha.Application")));
 builder.Services.AddValidatorsFromAssembly(Assembly.Load("FinMeha.Application"));
-
-// 3. Registrar o Pipeline Behavior de Valida��o
 builder.Services.AddTransient(typeof(IPipelineBehavior<,>), typeof(ValidationBehavior<,>));
-builder.Services.AddControllers();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+// ✅ Configuração do pipeline APÓS Build (apenas middleware)
+
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
 
+app.UseCors("AllowFrontend"); // ✅ USO do CORS (não configuração)
 app.UseHttpsRedirection();
-
 app.UseAuthentication();
-
 app.UseAuthorization();
-
 app.MapControllers();
 
 app.Run();

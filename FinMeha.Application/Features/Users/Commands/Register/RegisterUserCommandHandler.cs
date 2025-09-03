@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,10 +9,10 @@ using Org.BouncyCastle.Crypto.Generators;
 
 namespace FinMeha.Application.Features.Users.Commands.Register;
 
-public class RegisterUserCommandHander : IRequestHandler<RegisterUserCommand, Guid>
+public class RegisterUserCommandHandler : IRequestHandler<RegisterUserCommand, Guid>
 {
     private readonly IUserRepository _userRepository;
-    public RegisterUserCommandHander(IUserRepository userRepository)
+    public RegisterUserCommandHandler(IUserRepository userRepository)
     {
         _userRepository = userRepository;
     }

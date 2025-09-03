@@ -27,7 +27,7 @@ namespace FinMeha.Application.Features.Users.Commands.Login
             if (existingUser == null)
             {
 
-                throw new Exception("Email ou senha inválidos");
+                throw new Exception("Credenciais inválidas");
             }
 
             // 2: Verificar a senha (usando uma biblioteca como BCrypt)
@@ -37,7 +37,7 @@ namespace FinMeha.Application.Features.Users.Commands.Login
 
             if (!isPasswordValid)
             {
-                throw new Exception("Email ou senha inválidos.");
+                throw new Exception("Credenciais inválidas");
             }
 
             // 3. Gerar o token JWT (responsabilidade do serviço de token)
